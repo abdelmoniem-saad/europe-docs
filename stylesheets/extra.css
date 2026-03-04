@@ -1,0 +1,244 @@
+/*
+  OPEN-SOURCE EUROPE — Teal & Slate Theme
+  Clean dark palette with teal accents, system fonts, no gimmicks.
+*/
+
+/* ─── Palette ───────────────────────────────────────────── */
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #0f1419;
+  --md-default-bg-color--light: #141a21;
+  --md-default-bg-color--lighter: #1a2028;
+  --md-default-bg-color--lightest: #1e2530;
+
+  --md-default-fg-color: #d4d8de;
+  --md-default-fg-color--light: #b0b8c4;
+  --md-default-fg-color--lighter: #6b7a8d;
+  --md-default-fg-color--lightest: #4a5568;
+
+  --md-primary-fg-color: #e2e8f0;
+  --md-primary-bg-color: #0f1419;
+  --md-accent-fg-color: #2dd4bf;
+
+  --md-typeset-a-color: #2dd4bf;
+
+  --md-code-bg-color: #0b1015;
+  --md-code-fg-color: #b0b8c4;
+  --md-code-hl-color: rgba(45, 212, 191, 0.1);
+
+  --md-footer-bg-color: #0b1015;
+  --md-footer-bg-color--dark: #080d11;
+}
+
+/* ─── Header ────────────────────────────────────────────── */
+.md-header {
+  background: #0b1015;
+  border-bottom: 1px solid rgba(45, 212, 191, 0.1);
+}
+
+.md-tabs {
+  background: #0b1015;
+}
+
+/* ─── Sidebar ───────────────────────────────────────────── */
+.md-nav__link:hover,
+.md-nav__link--active {
+  color: #2dd4bf !important;
+}
+
+.md-sidebar__scrollwrap {
+  scrollbar-color: #1e2530 transparent;
+}
+
+/* ─── Headings ──────────────────────────────────────────── */
+.md-typeset h1 {
+  color: #e2e8f0;
+  font-weight: 700;
+}
+
+.md-typeset h2 {
+  color: #cbd5e1;
+  border-bottom: 1px solid rgba(45, 212, 191, 0.1);
+  padding-bottom: 0.35em;
+}
+
+.md-typeset h3 {
+  color: #94a3b8;
+}
+
+/* ─── Links ─────────────────────────────────────────────── */
+.md-typeset a {
+  color: #2dd4bf;
+}
+
+.md-typeset a:hover {
+  color: #5eead4;
+}
+
+/* ─── Buttons ───────────────────────────────────────────── */
+.md-button--primary {
+  background: #2dd4bf;
+  border: 1px solid #2dd4bf;
+  color: #0f1419;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.15s ease;
+}
+
+.md-button--primary:hover {
+  background: #5eead4;
+  border-color: #5eead4;
+  box-shadow: 0 2px 12px rgba(45, 212, 191, 0.2);
+}
+
+/* ─── Code ──────────────────────────────────────────────── */
+.md-typeset code {
+  background: #0b1015;
+  border: 1px solid rgba(45, 212, 191, 0.08);
+  border-radius: 4px;
+  padding: 0.15em 0.35em;
+  font-size: 0.85em;
+}
+
+.md-typeset pre > code {
+  border: none;
+  padding: 1em;
+}
+
+.highlight {
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid rgba(45, 212, 191, 0.08);
+}
+
+/* ─── Admonitions ───────────────────────────────────────── */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 6px;
+  border-left-width: 4px;
+}
+
+/* ─── Tables ────────────────────────────────────────────── */
+.md-typeset table:not([class]) {
+  border: 1px solid rgba(45, 212, 191, 0.08);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.md-typeset table:not([class]) th {
+  background: #141a21;
+  color: #2dd4bf;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.72em;
+  letter-spacing: 0.05em;
+}
+
+.md-typeset table:not([class]) td {
+  border-top: 1px solid rgba(45, 212, 191, 0.05);
+}
+
+.md-typeset table:not([class]) tr:hover td {
+  background: rgba(45, 212, 191, 0.03);
+}
+
+/* ─── Cards ─────────────────────────────────────────────── */
+.md-typeset .grid.cards > ul > li {
+  border: 1px solid rgba(45, 212, 191, 0.08);
+  border-radius: 6px;
+  background: #141a21;
+  transition: border-color 0.15s ease;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  border-color: rgba(45, 212, 191, 0.25);
+}
+
+/* ─── Map Containers ────────────────────────────────────── */
+.route-map {
+  width: 100%;
+  height: 400px;
+  border-radius: 6px;
+  border: 1px solid rgba(45, 212, 191, 0.12);
+  margin: 1em 0;
+  z-index: 1;
+}
+
+/* ─── Status Badges ─────────────────────────────────────── */
+.status-badge {
+  display: inline-block;
+  padding: 0.15em 0.6em;
+  border-radius: 12px;
+  font-size: 0.75em;
+  font-weight: 600;
+}
+
+.status-badge.completed {
+  background: rgba(45, 212, 191, 0.12);
+  color: #2dd4bf;
+  border: 1px solid rgba(45, 212, 191, 0.25);
+}
+
+.status-badge.planned {
+  background: rgba(148, 163, 184, 0.1);
+  color: #94a3b8;
+  border: 1px solid rgba(148, 163, 184, 0.2);
+}
+
+.status-badge.in-progress {
+  background: rgba(251, 191, 36, 0.12);
+  color: #fbbf24;
+  border: 1px solid rgba(251, 191, 36, 0.25);
+}
+
+/* ─── Souvenir Grid ─────────────────────────────────────── */
+.souvenir-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 0.8rem;
+  margin: 1.2em 0;
+}
+
+.souvenir-grid .souvenir-item {
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid rgba(45, 212, 191, 0.08);
+  background: #141a21;
+  text-align: center;
+  padding: 0.7em;
+  transition: border-color 0.15s ease;
+}
+
+.souvenir-grid .souvenir-item:hover {
+  border-color: rgba(45, 212, 191, 0.25);
+}
+
+.souvenir-grid .souvenir-item img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.souvenir-grid .souvenir-item .caption {
+  margin-top: 0.4em;
+  font-size: 0.78em;
+  color: #6b7a8d;
+}
+
+/* ─── Selection ─────────────────────────────────────────── */
+::selection {
+  background: rgba(45, 212, 191, 0.25);
+  color: #e2e8f0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ─── Leaflet popup override ────────────────────────────── */
+.leaflet-popup-content-wrapper {
+  border-radius: 6px;
+}
+
+.leaflet-popup-content {
+  margin: 8px 12px;
+  font-size: 0.85em;
+}
