@@ -1,0 +1,71 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Nørreport Station", "category": "transit", "note": "Main transit hub — metro, S-train, regional" },
+      "geometry": { "type": "Point", "coordinates": [12.5718, 55.6833] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Copenhagen Central Station", "category": "transit", "note": "Hovedbanegården — trains to airport, Sweden, and beyond" },
+      "geometry": { "type": "Point", "coordinates": [12.5651, 55.6726] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Nyhavn", "category": "landmark", "note": "The colourful harbour — best at golden hour" },
+      "geometry": { "type": "Point", "coordinates": [12.5897, 55.6800] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Strøget", "category": "landmark", "note": "One of Europe's longest pedestrian streets" },
+      "geometry": { "type": "Point", "coordinates": [12.5762, 55.6770] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Rundetårn", "category": "landmark", "note": "Round Tower — spiral ramp to the top, great views" },
+      "geometry": { "type": "Point", "coordinates": [12.5757, 55.6813] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Tivoli Gardens", "category": "landmark", "note": "Historic amusement park in the city centre" },
+      "geometry": { "type": "Point", "coordinates": [12.5681, 55.6737] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Christiania", "category": "landmark", "note": "Freetown Christiania — unique self-governed neighbourhood" },
+      "geometry": { "type": "Point", "coordinates": [12.5984, 55.6714] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "The Little Mermaid", "category": "landmark", "note": "Iconic waterfront statue at Langelinie" },
+      "geometry": { "type": "Point", "coordinates": [12.5997, 55.6929] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Kastellet", "category": "landmark", "note": "Star-shaped fortress — great for walks" },
+      "geometry": { "type": "Point", "coordinates": [12.5935, 55.6910] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Torvehallerne", "category": "food", "note": "Covered food market — expensive but worth a visit" },
+      "geometry": { "type": "Point", "coordinates": [12.5710, 55.6838] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Superkilen", "category": "landmark", "note": "Urban park in Nørrebro — colourful and multicultural" },
+      "geometry": { "type": "Point", "coordinates": [12.5437, 55.7010] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Nørrebro", "category": "neighbourhood", "note": "Best area for Halal food, diverse community" },
+      "geometry": { "type": "Point", "coordinates": [12.5500, 55.6950] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Copenhagen Airport (CPH)", "category": "transit", "note": "Kastrup — the gateway for all European trips" },
+      "geometry": { "type": "Point", "coordinates": [12.6508, 55.6180] }
+    }
+  ]
+}
+
