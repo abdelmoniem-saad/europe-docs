@@ -20,7 +20,7 @@ The semester basecamp was established in Copenhagen. Initial logistics included 
 
 ## Map Visualization
 
-<div class="route-map" id="map-v0-copenhagen" data-geojson="../geojson/copenhagen.geojson" data-center="[55.683, 12.572]" data-zoom="13" style="height:500px"></div>
+<div class="route-map" id="map-v0-copenhagen" data-geojson="../../geojson/copenhagen.geojson" data-center="[55.683, 12.572]" data-zoom="13" style="height:500px"></div>
 
 ## Assets
 - [x] Housing Secured

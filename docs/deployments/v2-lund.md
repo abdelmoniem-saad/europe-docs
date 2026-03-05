@@ -25,7 +25,7 @@ Lund is one of Sweden's oldest university cities. The architecture shift from Ma
 
 ## Map Visualization
 
-<div class="route-map" id="map-v2-lund" data-geojson="../geojson/lund.geojson" data-center="[55.705, 13.193]" data-zoom="14" style="height:500px"></div>
+<div class="route-map" id="map-v2-lund" data-geojson="../../geojson/lund.geojson" data-center="[55.705, 13.193]" data-zoom="14" style="height:500px"></div>
 
 ## Observations
 - **Lund Cathedral:** Ancient structure with astronomical clock.

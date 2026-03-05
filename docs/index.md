@@ -31,7 +31,30 @@ The semester starts here, in Copenhagen. The trips come later.
 
 ## What's Here So Far
 
-- **[Prerequisites](prerequisites.md)** — Gear, apps, and prep work.
-- **[Copenhagen](deployments/v0-copenhagen.md)** — Basecamp setup and initial logs.
-- **[Malmö](deployments/v1-malmo.md)** — Crossing the bridge into Sweden.
-- **[Lund](deployments/v2-lund.md)** — Historical academic sector exploration.
+<div class="grid cards" markdown>
+
+-   :material-map-marker: __[Copenhagen](deployments/v0-copenhagen.md)__
+
+    ---
+
+    Basecamp setup and initial logs.
+
+-   :material-bridge: __[Malmö](deployments/v1-malmo.md)__
+
+    ---
+
+    Crossing the bridge into Sweden.
+
+-   :material-school: __[Lund](deployments/v2-lund.md)__
+
+    ---
+
+    Historical academic sector exploration.
+
+-   :material-cog: __[Prerequisites](prerequisites.md)__
+
+    ---
+
+    Gear, apps, and prep work.
+
+</div>

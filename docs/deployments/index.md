@@ -4,20 +4,33 @@ Every trip logged like a technical release. This section tracks all "deployments
 
 ---
 
-### active | [v0-copenhagen](v0-copenhagen.md)
-**Copenhagen, Denmark** — Basecamp establishment and initial logistics.
-- **Start Date:** 2026-02-01
-- **Status:** Active
+<div class="grid cards" markdown>
 
-### completed | [v1-malmo](v1-malmo.md)
-**Malmö, Sweden** — Crossing the Øresund Bridge.
-- **Start Date:** 2026-02-15
-- **Status:** Completed
+-   :material-map-check: __[v0-copenhagen](v0-copenhagen.md)__
 
-### completed | [v2-lund](v2-lund.md)
-**Lund, Sweden** — Historical academic sector exploration.
-- **Start Date:** 2026-03-01
-- **Status:** Completed
+    ---
+
+    **Copenhagen, Denmark** — Basecamp establishment and initial logistics.
+    -   **Start Date:** 2026-02-01
+    -   **Status:** :material-checkbox-marked-circle:{ .status-badge .completed } Active
+
+-   :material-bridge: __[v1-malmo](v1-malmo.md)__
+
+    ---
+
+    **Malmö, Sweden** — Crossing the Øresund Bridge.
+    -   **Start Date:** 2026-02-15
+    -   **Status:** :material-check-circle:{ .status-badge .completed } Completed
+
+-   :material-school: __[v2-lund](v2-lund.md)__
+
+    ---
+
+    **Lund, Sweden** — Historical academic sector exploration.
+    -   **Start Date:** 2026-03-01
+    -   **Status:** :material-check-circle:{ .status-badge .completed } Completed
+
+</div>
 
 ---
 

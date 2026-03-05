@@ -28,7 +28,7 @@
 
 ## Map Visualization
 
-<div class="route-map" id="map-v1-malmo" data-geojson="../geojson/malmo.geojson" data-center="[55.605, 13.003]" data-zoom="13" style="height:500px"></div>
+<div class="route-map" id="map-v1-malmo" data-geojson="../../geojson/malmo.geojson" data-center="[55.605, 13.003]" data-zoom="13" style="height:500px"></div>
 
 ## Assets
 - [x] Train Ticket Logged
