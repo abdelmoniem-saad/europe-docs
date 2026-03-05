@@ -25,6 +25,11 @@ theme:
 nav:
   - Home: index.md
   - Prerequisites: prerequisites.md
+  - Deployments:
+      - Deployments: deployments/index.md
+      - Copenhagen: deployments/v0-copenhagen.md
+      - Malmö: deployments/v1-malmo.md
+      - Lund: deployments/v2-lund.md
 
 markdown_extensions:
   - admonition

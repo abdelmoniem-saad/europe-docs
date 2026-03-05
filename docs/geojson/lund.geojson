@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Lund Cathedral", "category": "landmark", "note": "12th-century Romanesque cathedral with astronomical clock" },
+      "geometry": { "type": "Point", "coordinates": [13.1935, 55.7039] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Lund University Library", "category": "landmark", "note": "Stunning ivy-covered academic landmark" },
+      "geometry": { "type": "Point", "coordinates": [13.1932, 55.7088] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Kulturen", "category": "landmark", "note": "Open-air museum showcasing Swedish cultural history" },
+      "geometry": { "type": "Point", "coordinates": [13.1963, 55.7051] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Mårtenstorget", "category": "food", "note": "Historic marketplace with local food stalls" },
+      "geometry": { "type": "Point", "coordinates": [13.1960, 55.7025] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Lund Central Station", "category": "transit", "note": "Connection hub to Malmö and beyond" },
+      "geometry": { "type": "Point", "coordinates": [13.1870, 55.7060] }
+    }
+  ]
+}

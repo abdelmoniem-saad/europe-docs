@@ -35,8 +35,47 @@
   border-bottom: 1px solid rgba(45, 212, 191, 0.1);
 }
 
+.md-header__title {
+  color: #ffffff !important;
+}
+
+.md-header__button {
+  color: #ffffff !important;
+}
+
+.md-logo {
+  color: #ffffff !important;
+}
+
+.md-search__icon {
+  color: #ffffff !important;
+}
+
+.md-search__label {
+  color: #ffffff !important;
+}
+
+.md-search__input::placeholder {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.md-search__input {
+  color: #ffffff !important;
+}
+
 .md-tabs {
   background: #0b1015;
+}
+
+.md-tabs__link {
+  color: #2dd4bf !important;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.md-tabs__link--active,
+.md-tabs__link:hover {
+  opacity: 1;
 }
 
 /* ─── Sidebar ───────────────────────────────────────────── */

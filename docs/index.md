@@ -15,9 +15,13 @@ Copenhagen, Denmark. Home for the spring 2026 exchange semester, and the startin
 | **Budget** | €1,700 total |
 | **Dietary** | Halal only |
 
-## Copenhagen Map
+## Deployment Maps
 
+### Copenhagen Basecamp
 <div class="route-map" id="map-copenhagen" data-geojson="geojson/copenhagen.geojson" data-center="[55.683, 12.572]" data-zoom="13" style="height:500px"></div>
+
+### Regional Overview (Nordic Sector)
+<div class="route-map" id="map-europe" data-geojson="geojson/europe.geojson" data-center="[55.65, 12.8]" data-zoom="10" style="height:500px"></div>
 
 ## The Approach
 
@@ -27,4 +31,7 @@ The semester starts here, in Copenhagen. The trips come later.
 
 ## What's Here So Far
 
-- **[Prerequisites](prerequisites.md)** — Gear, apps, and prep work before anything else.
+- **[Prerequisites](prerequisites.md)** — Gear, apps, and prep work.
+- **[Copenhagen](deployments/v0-copenhagen.md)** — Basecamp setup and initial logs.
+- **[Malmö](deployments/v1-malmo.md)** — Crossing the bridge into Sweden.
+- **[Lund](deployments/v2-lund.md)** — Historical academic sector exploration.

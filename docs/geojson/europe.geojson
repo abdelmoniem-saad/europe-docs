@@ -1,0 +1,44 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Copenhagen Basecamp", "base": true, "note": "Operational base for the semester" },
+      "geometry": { "type": "Point", "coordinates": [12.5683, 55.6761] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Malmö Sector", "note": "First cross-border deployment" },
+      "geometry": { "type": "Point", "coordinates": [13.0038, 55.6050] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Lund Sector", "note": "Historical/Academic deployment" },
+      "geometry": { "type": "Point", "coordinates": [13.1932, 55.7058] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Øresund Crossing", "transport": "Train", "note": "Copenhagen to Malmö via Øresundstog" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [12.5683, 55.6761],
+          [12.6508, 55.6180],
+          [12.83, 55.57],
+          [13.0038, 55.6050]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Regional Rail Scan", "transport": "Train", "note": "Malmö to Lund" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [13.0038, 55.6050],
+          [13.1932, 55.7058]
+        ]
+      }
+    }
+  ]
+}
