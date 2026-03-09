@@ -6,6 +6,8 @@ A semester in Copenhagen, documented like a codebase — built with MkDocs Mater
 
 A personal documentation project that logs every trip, route, budget decision, and mishap from a semester abroad in Copenhagen. Structured like software docs, because that's more fun than a blog.
 
+Have a look at the [live site](https://abdelmoniem-saad.github.io/europe-docs/) for the full experience.
+
 ## Stack
 
 - [MkDocs](https://www.mkdocs.org/) with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)

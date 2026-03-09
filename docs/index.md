@@ -8,12 +8,12 @@ A semester abroad in Copenhagen, documented like a codebase. Every trip, every r
 
 Copenhagen, Denmark. Home for the spring 2026 exchange semester, and the starting point for everything that follows.
 
-| Parameter | Value |
-|:----------|:------|
+| Parameter | Value               |
+|:----------|:--------------------|
 | **Base** | Copenhagen, Denmark |
-| **Semester** | Spring 2026 |
-| **Budget** | €1,700 total |
-| **Dietary** | Halal only |
+| **Semester** | Spring 2026         |
+| **Budget** | Strict              |
+| **Dietary** | Halal only          |
 
 ## Deployment Maps
 
@@ -25,7 +25,7 @@ Copenhagen, Denmark. Home for the spring 2026 exchange semester, and the startin
 
 ## The Approach
 
-This isn't a travel blog. It's a documentation site — structured, searchable, and built to last longer than an Instagram story. Each trip gets its own versioned release page. Logistics are logged like API calls. Mistakes go in the error logs.
+This isn't a travel blog. It's a documentation site; structured, searchable, and built to last longer than an Instagram story. Each trip gets its own versioned release page. Logistics are logged like API calls. Mistakes go in the error logs.
 
 The semester starts here, in Copenhagen. The trips come later.
 

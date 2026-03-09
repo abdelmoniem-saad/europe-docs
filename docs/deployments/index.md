@@ -1,6 +1,6 @@
 # Deployments
 
-Every trip logged like a technical release. This section tracks all "deployments" — from the initial basecamp setup in Copenhagen to regional excursions and cross-border explorations.
+Every trip logged like a technical release. This section tracks all "deployments"; from the initial basecamp setup in Copenhagen to regional excursions and cross-border explorations.
 
 ---
 

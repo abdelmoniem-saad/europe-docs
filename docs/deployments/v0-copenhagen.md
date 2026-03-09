@@ -11,6 +11,7 @@
 ## System Logs
 
 ### Initial Setup
+
 The semester basecamp was established in Copenhagen. Initial logistics included securing housing, local transport cards (Rejsekort), and identifying essential services.
 
 ### Core Metrics
