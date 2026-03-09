@@ -129,7 +129,7 @@ First half of a full Sweden day-trip, executed while fasting. Malmö was the mor
 
 ## Map Visualization
 
-<div class="route-map" id="map-v1-malmo" data-geojson="../../geojson/malmo.geojson" data-center="[55.605, 13.003]" data-zoom="13" style="height:500px"></div>
+<div class="route-map" id="map-v1-malmo" data-geojson="../../geojson/malmo.geojson" data-center="[55.6065, 12.9910]" data-zoom="14" style="height:500px"></div>
 
 ---
 

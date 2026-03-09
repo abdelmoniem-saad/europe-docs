@@ -90,12 +90,31 @@ function numberedIcon(num, color) {
 function renderGeoJSON(map, data) {
   var hasCategories = {};
 
-  L.geoJSON(data, {
+  var overlayGroups = {
+    "Basecamp": L.layerGroup(),
+    "Routes & Streets": L.layerGroup(),
+    "Transit": L.layerGroup(),
+    "Landmarks": L.layerGroup(),
+    "Food & Fika": L.layerGroup(),
+    "Areas & Parks": L.layerGroup(),
+    "Other": L.layerGroup()
+  };
+
+  var geojsonLayer = L.geoJSON(data, {
     style: function (feature) {
       var p = feature.properties;
       var transport = (p.transport || "").toLowerCase();
       var route = (p.route || "").toLowerCase();
 
+      /* Street Net (Coverage Tracker) */
+      if (route === "net") {
+        return {
+          color: "#2dd4bf", /* Teal to match theme, but subtle */
+          weight: 2,
+          opacity: 0.35, /* Low opacity to overlay gently */
+          lineCap: "round"
+        };
+      }
       /* Walking route */
       if (route === "walk") {
         return {
@@ -134,6 +153,7 @@ function renderGeoJSON(map, data) {
 
       /* Track categories for legend */
       if (cat) hasCategories[cat] = true;
+      if (isBase) hasCategories['basecamp'] = true;
 
       /* Numbered marker if order is present */
       if (order !== undefined && order !== null) {
@@ -169,8 +189,38 @@ function renderGeoJSON(map, data) {
           className: 'map-tooltip'
         });
       }
+
+      /* Distribution into layer groups */
+      var cat = (p.category || "").toLowerCase();
+      var route = (p.route || "").toLowerCase();
+      var isBase = p.base;
+
+      if (isBase) { overlayGroups["Basecamp"].addLayer(layer); }
+      else if (route) { overlayGroups["Routes & Streets"].addLayer(layer); }
+      else if (cat === 'transit') { overlayGroups["Transit"].addLayer(layer); }
+      else if (cat === 'landmark' || cat === 'castle' || cat === 'library' || cat === 'photo') { overlayGroups["Landmarks"].addLayer(layer); }
+      else if (cat === 'food' || cat === 'fika') { overlayGroups["Food & Fika"].addLayer(layer); }
+      else if (cat === 'neighbourhood' || cat === 'park' || cat === 'deviation') { overlayGroups["Areas & Parks"].addLayer(layer); }
+      else { overlayGroups["Other"].addLayer(layer); }
     }
-  }).addTo(map);
+  });
+
+  /* Note: We DO NOT add geojsonLayer to the map directly.
+     We only add the populated custom LayerGroups so the control toggler works perfectly. */
+
+  /* Add populated groups to map and build control list */
+  var activeOverlays = {};
+  for (var key in overlayGroups) {
+    if (overlayGroups[key].getLayers().length > 0) {
+      activeOverlays[key] = overlayGroups[key];
+      overlayGroups[key].addTo(map);
+    }
+  }
+
+  /* Only add the layer toggle control if we actually have multiple operational layers */
+  if (Object.keys(activeOverlays).length > 1) {
+    L.control.layers(null, activeOverlays, { collapsed: true, position: "topright" }).addTo(map);
+  }
 
   /* ─── Legend ─────────────────────────────────────────── */
   addLegend(map, hasCategories, data);
@@ -179,18 +229,19 @@ function renderGeoJSON(map, data) {
 /* ─── Legend Control ───────────────────────────────────── */
 function addLegend(map, cats, data) {
   /* Check if there are any line features */
-  var hasWalk = false, hasTrain = false;
+  var hasWalk = false, hasTrain = false, hasNet = false;
   if (data && data.features) {
     data.features.forEach(function(f) {
       var r = (f.properties.route || "").toLowerCase();
       if (r === "walk") hasWalk = true;
       if (r === "train") hasTrain = true;
+      if (r === "net") hasNet = true;
     });
   }
 
   /* Only show legend if there's something interesting */
   var catKeys = Object.keys(cats);
-  if (catKeys.length < 2 && !hasWalk && !hasTrain) return;
+  if (catKeys.length < 2 && !hasWalk && !hasTrain && !hasNet) return;
 
   var legend = L.control({ position: "bottomright" });
 
@@ -200,12 +251,13 @@ function addLegend(map, cats, data) {
 
     /* Category dots */
     var labels = {
-      landmark: "Landmark", food: "Food", transit: "Transit",
+      basecamp: "Basecamp", landmark: "Landmark", food: "Food", transit: "Transit",
       neighbourhood: "Area", castle: "Castle", library: "Library",
       park: "Park", fika: "Fika", deviation: "Deviation", photo: "Photo Spot"
     };
     catKeys.forEach(function (cat) {
       var color = categoryColors[cat] || "#e2e8f0";
+      if (cat === 'basecamp') color = "#2dd4bf"; /* Override basecamp color */
       var label = labels[cat] || cat;
       html += '<div><i style="background:' + color + '"></i> ' + label + '</div>';
     });
@@ -216,6 +268,9 @@ function addLegend(map, cats, data) {
     }
     if (hasTrain) {
       html += '<div><span class="line-sample" style="border-color:#94a3b8"></span> Train Transfer</div>';
+    }
+    if (hasNet) {
+      html += '<div><span class="line-sample" style="border-color:#2dd4bf; border-style:solid; opacity:0.5"></span> Explored Streets</div>';
     }
 
     div.innerHTML = html;

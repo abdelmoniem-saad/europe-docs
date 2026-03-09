@@ -3,6 +3,25 @@
   "features": [
     {
       "type": "Feature",
+      "properties": { "name": "Explored Streets", "route": "net" },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [[12.5651, 55.6726], [12.5681, 55.6737], [12.5762, 55.6770], [12.5897, 55.6800]],
+          [[12.5762, 55.6770], [12.5757, 55.6813], [12.5718, 55.6833]],
+          [[12.5718, 55.6833], [12.5710, 55.6838], [12.5500, 55.6950], [12.5437, 55.7010]],
+          [[12.5897, 55.6800], [12.5935, 55.6910], [12.5997, 55.6929]],
+          [[12.5651, 55.6726], [12.5800, 55.6700], [12.5984, 55.6714]]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Copenhagen Basecamp", "base": true, "note": "Hjem (Home) — the center of operations" },
+      "geometry": { "type": "Point", "coordinates": [12.5700, 55.6800] }
+    },
+    {
+      "type": "Feature",
       "properties": { "name": "Nørreport Station", "category": "transit", "note": "Main transit hub — metro, S-train, regional" },
       "geometry": { "type": "Point", "coordinates": [12.5718, 55.6833] }
     },
@@ -53,7 +72,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "Superkilen", "category": "landmark", "note": "Urban park in Nørrebro — colourful and multicultural" },
+      "properties": { "name": "Superkilen", "category": "park", "note": "Urban park in Nørrebro — colourful and multicultural" },
       "geometry": { "type": "Point", "coordinates": [12.5437, 55.7010] }
     },
     {
@@ -68,4 +87,3 @@
     }
   ]
 }
-
