@@ -33,8 +33,9 @@ First half of a full Sweden day-trip, executed while fasting. Malmö was the mor
 ### Phase 2 — The Fortress & The Parks `10:15 – 12:00`
 
 - Walked from the waterfront to **Malmöhus Castle** — Scandinavia's oldest surviving Renaissance fortress, surrounded by a deep moat.
+- Spotted the **Slottsmöllan windmill** from a distance while at the castle — a silhouette rising above the treeline.
 - Circled the castle through **Kungsparken** (The King's Park) and **Slottsparken**.
-- Found the hidden **Slottsmöllan** — a historic windmill tucked inside the park.
+- Walked right up to **Slottsmöllan** — the historic windmill seen earlier from the castle. Close up it's much larger than it looks from afar.
 - Quick warm-up stop inside the **Malmö City Library** (Stadsbiblioteket). The **"Calendar of Light"** wing — a massive, multi-story glass wall facing the park — is stunning architecture and a welcome 15-minute refuge from the cold.
 
 ### Phase 3 — Old Town (Gamla Staden) `12:15 – 13:45`
@@ -49,6 +50,70 @@ First half of a full Sweden day-trip, executed while fasting. Malmö was the mor
 - Walked to **Malmö Central Station**.
 - Boarded train to Lund C via **Skånetrafiken** (~60 SEK / ~€5.50).
 - Travel time: **15 minutes exactly**. Rested legs on the ride.
+
+---
+
+## Field Photography
+
+<div class="polaroid-gallery" markdown>
+
+<div class="polaroid has-tape">
+  <img src="../../assets/malmo/turning-torso.jpg"
+       data-fallback="../../assets/thebase.jpg"
+       alt="Turning Torso">
+  <div class="caption">Turning Torso<span class="sub">190m of twisted Scandinavian ambition</span></div>
+</div>
+
+<div class="polaroid has-pin">
+  <img src="../../assets/malmo/oresund-bridge.jpg"
+       data-fallback="../../assets/thebase.jpg"
+       alt="Öresund Bridge">
+  <div class="caption">Öresund Bridge<span class="sub">Ribersborg beach, crisp morning</span></div>
+</div>
+
+<div class="polaroid has-tape">
+  <img src="../../assets/malmo/malmohus-castle.jpg"
+       data-fallback="../../assets/thebase.jpg"
+       alt="Malmöhus Castle">
+  <div class="caption">Malmöhus Castle<span class="sub">Renaissance fortress + deep moat</span></div>
+</div>
+
+<div class="polaroid">
+  <img src="../../assets/malmo/windmill-far.jpg"
+       data-fallback="../../assets/thebase.jpg"
+       alt="Windmill from the Castle">
+  <div class="caption">Slottsmöllan — from afar<span class="sub">Spotted from the castle grounds</span></div>
+</div>
+
+<div class="polaroid has-pin">
+  <img src="../../assets/malmo/windmill-close.jpg"
+       data-fallback="../../assets/thebase.jpg"
+       alt="Windmill up close">
+  <div class="caption">Slottsmöllan — up close<span class="sub">Much bigger than it looks!</span></div>
+</div>
+
+<div class="polaroid has-tape">
+  <img src="../../assets/malmo/city-library.jpg"
+       data-fallback="../../assets/thebase.jpg"
+       alt="Calendar of Light">
+  <div class="caption">Calendar of Light<span class="sub">Glass wall sanctuary from the cold</span></div>
+</div>
+
+<div class="polaroid">
+  <img src="../../assets/malmo/lilla-torg.jpg"
+       data-fallback="../../assets/thebase.jpg"
+       alt="Lilla Torg">
+  <div class="caption">Lilla Torg<span class="sub">1500s cobblestones & half-timber</span></div>
+</div>
+
+<div class="polaroid has-pin">
+  <img src="../../assets/malmo/stortorget.jpg"
+       data-fallback="../../assets/thebase.jpg"
+       alt="Stortorget & Rådhuset">
+  <div class="caption">Stortorget<span class="sub">The grand main square</span></div>
+</div>
+
+</div>
 
 ---
 
@@ -74,5 +139,7 @@ First half of a full Sweden day-trip, executed while fasting. Malmö was the mor
 - [x] Local Currency (SEK) Integration Tested
 - [x] Öresund Bridge View Confirmed
 - [x] Malmöhus Castle Perimeter Walked
+- [x] Slottsmöllan — Far Shot from Castle ✓
+- [x] Slottsmöllan — Close-Up Walk-By ✓
 - [x] Calendar of Light Wing Visited
 - [x] Lilla Torg Historic District Photographed

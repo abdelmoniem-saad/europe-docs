@@ -83,6 +83,70 @@ After the freezing outdoor meal, the warmth of **Espresso House** felt like para
 
 ---
 
+## Field Photography
+
+<div class="polaroid-gallery" markdown>
+
+<div class="polaroid has-tape">
+  <img src="../../assets/lund/cathedral-exterior.jpg"
+       data-fallback="../../assets/thebase.jpg"
+       alt="Lund Cathedral">
+  <div class="caption">Lund Cathedral<span class="sub">1,000 years of Romanesque stone</span></div>
+</div>
+
+<div class="polaroid has-pin">
+  <img src="../../assets/lund/finn-the-giant.jpg"
+       data-fallback="../../assets/thebase.jpg"
+       alt="Finn the Giant in the Crypt">
+  <div class="caption">Finn the Giant<span class="sub">Frozen in stone, trapped forever</span></div>
+</div>
+
+<div class="polaroid">
+  <img src="../../assets/lund/astronomical-clock.jpg"
+       data-fallback="../../assets/thebase.jpg"
+       alt="Astronomical Clock">
+  <div class="caption">The Astronomical Clock<span class="sub">Arrived late — saw it silent 😔</span></div>
+</div>
+
+<div class="polaroid has-tape">
+  <img src="../../assets/lund/kulturkvadranten.jpg"
+       data-fallback="../../assets/thebase.jpg"
+       alt="Kulturkvadranten colourful houses">
+  <div class="caption">Kulturkvadranten<span class="sub">Crooked & colourful since the 1800s</span></div>
+</div>
+
+<div class="polaroid has-pin">
+  <img src="../../assets/lund/university-campus.jpg"
+       data-fallback="../../assets/thebase.jpg"
+       alt="Lund University">
+  <div class="caption">Lund University<span class="sub">Heavy stone, academic grandeur</span></div>
+</div>
+
+<div class="polaroid">
+  <img src="../../assets/lund/street-iftar.jpg"
+       data-fallback="../../assets/thebase.jpg"
+       alt="Street bench Iftar">
+  <div class="caption">The Infamous Iftar<span class="sub">Freezing bench, warm food, no regrets</span></div>
+</div>
+
+<div class="polaroid has-tape">
+  <img src="../../assets/lund/fika-spread.jpg"
+       data-fallback="../../assets/thebase.jpg"
+       alt="Espresso House fika">
+  <div class="caption">Fika at Espresso House<span class="sub">Semla + Kanelbulle + Caramel Frappé</span></div>
+</div>
+
+<div class="polaroid has-pin">
+  <img src="../../assets/lund/lund-night.jpg"
+       data-fallback="../../assets/thebase.jpg"
+       alt="Lund illuminated at night">
+  <div class="caption">Lund by Night<span class="sub">The final walk back to the station</span></div>
+</div>
+
+</div>
+
+---
+
 ## Core Metrics
 
 - **Steps Logged:** 14,200

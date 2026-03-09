@@ -3,28 +3,127 @@
   "features": [
     {
       "type": "Feature",
-      "properties": { "name": "Lund Cathedral", "category": "landmark", "note": "12th-century Romanesque cathedral with astronomical clock" },
+      "properties": { "name": "Walking Route", "route": "walk" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [13.1870, 55.7060],
+          [13.1935, 55.7039],
+          [13.1963, 55.7051],
+          [13.1932, 55.7088],
+          [13.1950, 55.7095],
+          [13.1975, 55.7020],
+          [13.1960, 55.7010],
+          [13.1945, 55.7025],
+          [13.1870, 55.7060]
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lund Central Station",
+        "category": "transit",
+        "note": "Arrived via Skånetrafiken from Malmö (~60 SEK, 15 min)",
+        "order": 1,
+        "phase": "Arrival"
+      },
+      "geometry": { "type": "Point", "coordinates": [13.1870, 55.7060] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lund Cathedral (Domkyrkan)",
+        "category": "landmark",
+        "note": "12th-century Romanesque cathedral — arrived after 15:00, missed clock show",
+        "order": 2,
+        "phase": "Phase 1 — Cathedral"
+      },
       "geometry": { "type": "Point", "coordinates": [13.1935, 55.7039] }
     },
     {
       "type": "Feature",
-      "properties": { "name": "Lund University Library", "category": "landmark", "note": "Stunning ivy-covered academic landmark" },
-      "geometry": { "type": "Point", "coordinates": [13.1932, 55.7088] }
+      "properties": {
+        "name": "Finn the Giant (Crypt)",
+        "category": "landmark",
+        "note": "Stone figure trapped in the cathedral crypt, hugging a pillar"
+      },
+      "geometry": { "type": "Point", "coordinates": [13.1937, 55.7037] }
     },
     {
       "type": "Feature",
-      "properties": { "name": "Kulturen", "category": "landmark", "note": "Open-air museum showcasing Swedish cultural history" },
+      "properties": {
+        "name": "Kulturkvadranten",
+        "category": "neighbourhood",
+        "note": "Tiny, colourful, crooked houses from the 1800s — most photogenic area",
+        "order": 3,
+        "phase": "Phase 2 — University"
+      },
       "geometry": { "type": "Point", "coordinates": [13.1963, 55.7051] }
     },
     {
       "type": "Feature",
-      "properties": { "name": "Mårtenstorget", "category": "food", "note": "Historic marketplace with local food stalls" },
-      "geometry": { "type": "Point", "coordinates": [13.1960, 55.7025] }
+      "properties": {
+        "name": "Lund University (Universitetsplatsen)",
+        "category": "landmark",
+        "note": "Majestic stone campus — old-world academic grandeur",
+        "order": 4,
+        "phase": "Phase 2 — University"
+      },
+      "geometry": { "type": "Point", "coordinates": [13.1932, 55.7088] }
     },
     {
       "type": "Feature",
-      "properties": { "name": "Lund Central Station", "category": "transit", "note": "Connection hub to Malmö and beyond" },
-      "geometry": { "type": "Point", "coordinates": [13.1870, 55.7060] }
+      "properties": {
+        "name": "Botanical Gardens",
+        "category": "park",
+        "note": "Lund University botanical gardens",
+        "order": 5,
+        "phase": "Phase 2 — Gardens"
+      },
+      "geometry": { "type": "Point", "coordinates": [13.1950, 55.7095] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kebab Shop (Iftar Spot)",
+        "category": "deviation",
+        "note": "⚠ Plan B after seafood was too expensive. First kebab place was closed. Burger + Kyllinge Durum + Smakens Poesi Mango & Morot",
+        "order": 6,
+        "phase": "Phase 3 — Iftar (Deviation)"
+      },
+      "geometry": { "type": "Point", "coordinates": [13.1975, 55.7020] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Street Bench (Iftar Seating)",
+        "category": "deviation",
+        "note": "❄ No indoor seating at the kebab shop. Ate on a freezing street bench at ~-1°C",
+        "phase": "Phase 3 — Iftar (Deviation)"
+      },
+      "geometry": { "type": "Point", "coordinates": [13.1960, 55.7010] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Espresso House (Fika)",
+        "category": "fika",
+        "note": "☕ Semla Roll + Kanelbulle + Caramel Frappé. The warm rescue after freezing Iftar",
+        "order": 7,
+        "phase": "Phase 4 — Fika"
+      },
+      "geometry": { "type": "Point", "coordinates": [13.1945, 55.7025] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Restaurang Stäket (Planned, Not Visited)",
+        "category": "food",
+        "note": "🚫 Original Iftar plan — 15th-century cellar, Swedish seafood. Skipped: too expensive"
+      },
+      "geometry": { "type": "Point", "coordinates": [13.1920, 55.7030] }
     }
   ]
 }

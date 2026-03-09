@@ -3,23 +3,145 @@
   "features": [
     {
       "type": "Feature",
-      "properties": { "name": "Malmö Central Station", "category": "transit", "note": "Primary arrival point from Copenhagen via Øresund Bridge" },
+      "properties": { "name": "Walking Route", "route": "walk" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [13.0000, 55.6090],
+          [12.9920, 55.6100],
+          [12.9770, 55.6120],
+          [12.9680, 55.6110],
+          [12.9850, 55.6070],
+          [12.9870, 55.6050],
+          [12.9910, 55.6040],
+          [12.9940, 55.6035],
+          [13.0010, 55.6050],
+          [12.9990, 55.6045],
+          [13.0020, 55.6035],
+          [13.0000, 55.6090]
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Malmö Central Station",
+        "category": "transit",
+        "note": "Primary arrival point from Copenhagen via Øresund Bridge",
+        "order": 1,
+        "phase": "Phase 1 — Start"
+      },
       "geometry": { "type": "Point", "coordinates": [13.0000, 55.6090] }
     },
     {
       "type": "Feature",
-      "properties": { "name": "Turning Torso", "category": "landmark", "note": "Neo-futurist skyscraper, the tallest in Scandinavia" },
+      "properties": {
+        "name": "Västra Hamnen",
+        "category": "neighbourhood",
+        "note": "The Western Harbour — modern waterfront district",
+        "order": 2,
+        "phase": "Phase 1 — Waterfront"
+      },
+      "geometry": { "type": "Point", "coordinates": [12.9920, 55.6100] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Turning Torso",
+        "category": "landmark",
+        "note": "Neo-futurist skyscraper, tallest in Scandinavia (190m)",
+        "order": 3,
+        "phase": "Phase 1 — The Giant"
+      },
       "geometry": { "type": "Point", "coordinates": [12.9770, 55.6120] }
     },
     {
       "type": "Feature",
-      "properties": { "name": "Stortorget", "category": "landmark", "note": "The oldest and largest square in Malmö" },
+      "properties": {
+        "name": "Ribersborg Beach",
+        "category": "landmark",
+        "note": "Waterfront promenade — stunning Öresund Bridge views",
+        "order": 4,
+        "phase": "Phase 1 — Waterfront"
+      },
+      "geometry": { "type": "Point", "coordinates": [12.9680, 55.6110] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Malmöhus Castle",
+        "category": "castle",
+        "note": "Scandinavia's oldest surviving Renaissance fortress",
+        "order": 5,
+        "phase": "Phase 2 — The Fortress"
+      },
+      "geometry": { "type": "Point", "coordinates": [12.9850, 55.6070] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Slottsmöllan Windmill",
+        "category": "landmark",
+        "note": "Historic windmill hidden in the park — spotted from castle, then visited up close",
+        "order": 6,
+        "phase": "Phase 2 — The Parks"
+      },
+      "geometry": { "type": "Point", "coordinates": [12.9870, 55.6050] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kungsparken & Slottsparken",
+        "category": "park",
+        "note": "The King's Park and Castle Park — surrounding the fortress",
+        "phase": "Phase 2 — The Parks"
+      },
+      "geometry": { "type": "Point", "coordinates": [12.9860, 55.6060] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Malmö City Library",
+        "category": "library",
+        "note": "Calendar of Light wing — multi-story glass wall facing the park",
+        "order": 7,
+        "phase": "Phase 2 — Warmup"
+      },
+      "geometry": { "type": "Point", "coordinates": [12.9910, 55.6040] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stortorget & Rådhuset",
+        "category": "landmark",
+        "note": "Main square with the ornate Renaissance City Hall",
+        "order": 8,
+        "phase": "Phase 3 — Old Town"
+      },
       "geometry": { "type": "Point", "coordinates": [13.0010, 55.6050] }
     },
     {
       "type": "Feature",
-      "properties": { "name": "Lilla Torg", "category": "food", "note": "Cosy historical square with many cafes and restaurants" },
+      "properties": {
+        "name": "Lilla Torg",
+        "category": "food",
+        "note": "Postcard-perfect cobblestoned square, half-timbered houses from the 1500s",
+        "order": 9,
+        "phase": "Phase 3 — Old Town"
+      },
       "geometry": { "type": "Point", "coordinates": [12.9990, 55.6045] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Södergatan",
+        "category": "neighbourhood",
+        "note": "Main pedestrian shopping street",
+        "order": 10,
+        "phase": "Phase 3 — Old Town"
+      },
+      "geometry": { "type": "Point", "coordinates": [13.0020, 55.6035] }
     }
   ]
 }

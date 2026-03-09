@@ -78,3 +78,4 @@ extra_css:
 extra_javascript:
   - https://unpkg.com/leaflet@1.9.4/dist/leaflet.js
   - javascripts/maps.js
+  - javascripts/fallback.js
